@@ -3,66 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio-pink</title>
+    <title>portfolio</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!--creating the container of first page of portfolio-->
     <div class="container">
-        <nav>
-            <div class="logo"><H1>jessica</H1></div>
-            <div class="navbar">
-                <a href="#">home</a>
-                <a href="./about.html">about</a>
-                <a href="#">work</a>
-                <a href="#">resume</a>
-                <a href="#">contact</a>
+        <!----------------------hero is the box inside our first page--------------------------------------->
+        <div class="hero">
+            <!------------------nav and nav-below are children of hero-------------------------------------->
+            <nav>
+                <!--------------nav has tow parts logo and navsections 'home about resume my work'---------->
+                <div class="logo"><h1>Zula</h1></div>
+                <ul class="navsections">
+                    <!--creating navbar using ul-->
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="resume">resume</a></li>
+                    <li><a href="my work">my work</a></li>
+                </ul>
+            </nav>
+
+
+              <!---------------------------below-nav has two parts welcome 'h1 H2 and p'and imgcontainer'myimg'------->
+            <div class="below-nav">
+                <div class="welcome">
+                    <h1>Hi,I'm Zula</h1>
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ab optio, quidem ipsum reprehenderit cupiditate.</p>
+                    <button>My Works</button>
+                </div>
+                <div class="imgcontainer"><div class="myimg"></div></div>
+                
+               
             </div>
+
             
 
-        </nav>
-        <div class="hero">
-            <div class="welcome">
-                <h1>hi i'm jessica</h1>
-                <h2>web developer</h2>
-                <p>Lorem ipsum dolor sit amet <br>
-                    consectetur adipisicing elit. <br>
-                     Eaque praesentium,  <br>
-                     cum quae delectus <br>
-                      rerum illum?</p>
-                      <button>mywork
-
-                      </button>
-            </div>
-            <div class="myimg"> </div>
         </div>
     </div>
-    <main>
-        <section class="home">
-            <div class="text"> <h1>home</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos reiciendis odit animi pariatur perferendis aliquid reprehenderit error optio, tempore voluptates consectetur? Perspiciatis, rerum atque dignissimos autem tempora asperiores enim repellat inventore est quod officia reiciendis obcaecati eius quidem sint numquam blanditiis minus illo alias. Repudiandae, dicta sint! Necessitatibus, dignissimos?</p>
-            </div>
-           <div class="video">
-            <iframe src="https://www.youtube.com/watch?v=YfmYUtGOaTg"></iframe>
-           </div>
-            
-    
-        </section>
-        <section class="work">
-            <h1>work</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit ab molestiae cupiditate corporis nostrum ducimus a reprehenderit earum unde eum fugiat, eius accusamus illum voluptas ullam harum nulla ipsum nihil voluptatem atque expedita aliquam veritatis labore nemo! Repudiandae sint nulla, accusantium illum ut magni quam quod voluptas incidunt soluta asperiores.</p>
-        </section>
-        <section class="resume">
-            <h1>resume</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quod facere voluptatem eveniet. Enim iusto illum tempore fugit facilis assumenda similique? Labore, quas suscipit. Blanditiis facilis, odit esse dolores doloribus quod explicabo inventore molestias fugiat dicta quia similique quis, neque praesentium libero velit quisquam saepe tempore. Iste quae tempora repudiandae?</p>
-    
-        </section>
-       <section class="about">
-        <h1>about</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, quia. Officiis cupiditate doloribus quo ducimus dolorum consequuntur reiciendis at amet eligendi voluptas? Aliquam asperiores iure architecto rem fuga debitis vitae quod possimus dolor velit, nisi magnam amet fugit cumque aut maxime ut nulla dolores numquam a? Corrupti ea minus nam!</p>
-        </section>
-    
-    </main>
-   
+<!-----------------------------------------------------------------------end of first page 100vh---------------------------------------------------------->
+
+
+
+<!-------------------------------------------------------------start of sections home about resume my work------------------------------------------------>
+
+    <section id="home">
+
+        <h1>home</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos est, hic maiores rem provident quasi, eos labore ratione debitis maxime autem odit earum illum molestiae veritatis consequuntur veniam iste. Unde.</p>
+        <video width="100%" height="50%" controls autoplay>
+            <source src="./Pink and White Modern Playful Channel YouTube Intro.mp4" type="video/mp4">
+           
+          Your browser does not support the video tag.
+          </video>
+
+
+    </section>
+    <section id="about">
+        <div class="txtAbout"><h1>about</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos est, hic maiores rem provident quasi, eos labore ratione debitis maxime autem odit earum illum molestiae veritatis consequuntur veniam iste. Unde.</p>
+        </div>
+        
+    </section>
+    <section id="resume">
+<div class="resumetext">
+    <h1>resume</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos est, hic maiores rem provident quasi, eos labore ratione debitis maxime autem odit earum illum molestiae veritatis consequuntur veniam iste. Unde.</p>
+</div>
+        
+        <div class="resumeimg"></div>
+    </section>
+    <section id="my work">
+        <h1>my work</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos est, hic maiores rem provident quasi, eos labore ratione debitis maxime autem odit earum illum molestiae veritatis consequuntur veniam iste. Unde.</p>
+        
+    </section>
+    <footer>
+        <H1>thank you</H1>
+    </footer>
+
     
 </body>
 </html>
